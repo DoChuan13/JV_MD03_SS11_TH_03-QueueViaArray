@@ -31,7 +31,7 @@ public class MyQueue {
         return status;
     }
 
-    //Phương thức thêm phần tử vào cuối của queue (xếp chồng)
+    //Phương thức thêm phần tử vào cuối của queue (hàng đợi)
     //Kiểm tra trạng thái đầy tải của mảng => đưa ra thông báo đầy hoặc thực thi
     //Nếu thoả mãn, phần tử được đẩy vào cuối mảng, và cập nhật kích thước thực
     public void enqueue(int item) {
@@ -48,7 +48,7 @@ public class MyQueue {
         }
     }
 
-    //Phương thức xoá phần tử khỏi vị trí của queue (xếp chồng)
+    //Phương thức xoá phần tử khỏi vị trí của queue (hàng đợi)
     //Kiểm tra trạng thái trống của mảng => đưa ra thông báo không có dữ liệu hoặc thực thi
     //Nếu thoả mãn, phần tử được xoá ra khỏi cuối mảng, và cập nhật kích thước thực
     public void dequeue() {
